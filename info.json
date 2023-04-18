@@ -1,0 +1,52 @@
+{
+    "keyboard_name": "3K",
+    "manufacturer": "ashtonmaster77",
+    "url": "https://github.com/qmk/qmk_toolbox/",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0000",
+        "device_version": "1.0.0"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "atmel-dfu",
+    "matrix_pins": {
+        "rows": ["B6"],
+        "cols": ["D7", "D6", "D4"]
+    },
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "mousekey": true,
+        "extrakey": true,
+        "console": false,
+        "command": false,
+        "nkro": false,
+        "backlight": false,
+        "rgblight": true,
+        "audio": false,
+        "key_lock": false
+    },
+    "rgblight": {
+        "pin": "B0",
+        "led_count": 4,
+        "hue_steps": 8,
+        "saturation_steps": 8,
+        "brightness_steps": 8,
+        "max_brightness": 255,
+        "sleep": true,
+        "animations": {
+            "all": true
+        }
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K00 (B6,D7)", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "K01 (B6,D6)", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "K02 (B6,D4)", "matrix": [0, 2], "x": 2, "y": 0}
+           ]
+        }
+    },
+    "meta": "https://noroadsleft.github.io/kbf_qmk_converter/"
+}
