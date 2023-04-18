@@ -1,6 +1,5 @@
 # 3key
 
-![3key]
 keyboard project for fun
 
 * Keyboard Maintainer: [ashtonmaster77](https://github.com/ashtonmaster77)
