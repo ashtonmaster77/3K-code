@@ -1,8 +1,7 @@
 # 3key
 
-![3key](imgur.com image replace me!)
-
-*A short description of the keyboard/project*
+![3key]
+keyboard project for fun
 
 * Keyboard Maintainer: [ashtonmaster77](https://github.com/ashtonmaster77)
 * Hardware Supported: *The PCBs, controllers supported*
