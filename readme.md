@@ -3,8 +3,8 @@
 keyboard project for fun
 
 * Keyboard Maintainer: [ashtonmaster77](https://github.com/ashtonmaster77)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: *3K keyboard By Ashton*
+* Hardware Availability: *https://github.com/ashtonmaster77/3K-PCB-for-keyboard*
 
 Make example for this keyboard (after setting up your build environment):
 
