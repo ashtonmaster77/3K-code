@@ -10,7 +10,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case AMOGUS:
         if (record->event.pressed) {
             // when keycode AMOGUS is pressed
-            SEND_STRING("Hello!"SS_tap(X_ENTER);
+            tap_code(KC_LALT,KC_TAB);
+        } else {
+            // when keycode AMOGUS is released
+        }
+        break;
+    }
+    case AMOGUS:
+        if (record->event.pressed) {
+            // when keycode AMOGUS is pressed
+            tap_code(KC_WIN, KC_PRTSCR);
         } else {
             // when keycode AMOGUS is released
         }
